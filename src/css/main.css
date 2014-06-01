@@ -59,7 +59,7 @@ body {
   max-width: 600px;
   margin: 0 auto;
   display: block;
-  padding: 20px;
+  padding: 20px 5px 10px;
 }
 
 /* -------------------------------------
@@ -152,15 +152,15 @@ p li, ul li, ol li {
     LINKS & BUTTONS
 ------------------------------------- */
 a {
-  color: #22aacc;
+  color: #00afec;
   text-decoration: underline;
 }
 
 .btn-primary {
   text-decoration: none;
   color: #FFF;
-  background-color: #22aacc;
-  border: solid #22aacc;
+  background-color: #00afec;
+  border: solid #00afec;
   border-width: 10px 20px;
   line-height: 2;
   font-weight: bold;
