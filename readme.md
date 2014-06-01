@@ -1,4 +1,5 @@
-# Grunt Email Design Workflow
+# Teeturn emails
+## Based off of Grunt Email Design Workflow
 
 Designing and testing emails is a pain. HTML tables, inline CSS, various devices, clients and support for the latest web standards.
 
