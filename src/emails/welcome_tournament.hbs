@@ -1,0 +1,24 @@
+---
+layout: default.hbs
+subject: Welcome to the Tournament
+---
+<div class="main">
+  <div class="content-wrapper">
+    <table>
+      <tr>
+        <td>
+          <h1>Welcome</h1>
+          <h2>to the "tournament name" scoreboard</h2>
+
+          <p>The <%= @params[:tournament_name] %> is using TeeTurn.com to provide real-time leaderboards.  As you are playing, you enter your team score on each hole using your smart phone and then you will see your where your team ranks on the leaderboard as you play.</p>
+
+          <p>Only one member of each team needs to enter the score.  To get started, click on the following link to choose a username and a password to create your account:</p>
+
+          <p><a href="#" class="btn-primary">link</a></p>
+
+          <p>On the day of the tournament, when you bring up <%= link_to "teeturn.com", "http://teeturn.com" %> on your phone, once you click "Start A Round", you will see to option to choose "<%= @params[:tournament_name] %>" to start keeping score</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
