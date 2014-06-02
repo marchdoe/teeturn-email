@@ -29,3 +29,13 @@ table {
     vertical-align: top;
   }
 }
+
+hr { 
+    border: 0;
+    height: 1px;
+    background: #e1e1e1 !important;
+    background-image: -webkit-linear-gradient(left, #e1e1e1, #333, #ccc) !important; 
+    background-image:    -moz-linear-gradient(left, #e1e1e1, #333, #ccc) !important; 
+    background-image:     -ms-linear-gradient(left, #e1e1e1, #333, #ccc) !important; 
+    background-image:      -o-linear-gradient(left, #e1e1e1, #333, #ccc) !important; 
+}
